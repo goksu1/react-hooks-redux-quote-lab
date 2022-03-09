@@ -5,6 +5,7 @@ import { Provider } from "react-redux";
 import store from "../store";
 import QuoteForm from "../features/quotes/QuoteForm";
 
+
 beforeEach(() => {
   render(
     <Provider store={store}>
